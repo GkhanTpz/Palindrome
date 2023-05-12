@@ -3,8 +3,8 @@
 #include <string.h>
 #define MAX_SIZE 50
 
-// A sentence or word checked by enum must only be Palindrome or Non-Palindrome 
-typedef enum 
+// A sentence or word checked by enum must only be Palindrome or Non-Palindrome
+typedef enum
 {
     PALINDROME,
     NON_PALINDROME
@@ -39,8 +39,8 @@ int main()
     }
 
     Status == PALINDROME
-    ? printf("The sentence '%s' is a palindrome.\n", mySentence)
-    : printf("The sentence '%s' is not a palindrome.\n", mySentence);
+    ? printf("The sentence/word '%s' is a palindrome.\n", mySentence)
+    : printf("The sentence/word '%s' is not a palindrome.\n", mySentence);
 
     return 0;
 }
