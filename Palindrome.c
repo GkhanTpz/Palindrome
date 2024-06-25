@@ -15,7 +15,7 @@ int main()
     char mySentence[MAX_SIZE];
     char *ch1, *ch2;
 
-    printf("Please enter a sentence: ");
+    printf("Please enter a sentence/word: ");
     fgets(mySentence, MAX_SIZE, stdin);
 
     // Remove the newline character from 'mySentence'
